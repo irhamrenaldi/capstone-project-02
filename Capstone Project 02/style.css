@@ -1,0 +1,93 @@
+.navbar-brand {
+    font-family: 'Charmonman', cursive;
+    font-size: 2rem;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+header {
+    color: black;
+}
+
+.jumbotron {
+    color: white;
+}
+
+.jumbotron .bg-body-tertiary {
+    height: 50vh;
+}
+
+.jumbotron .container-fluid {
+    margin-top: 40px;
+}
+
+.jumbotron-img {
+    background-image: url(./assets/img/banner.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-pic {
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#experience {
+    margin-top: 30px;
+    background-color: #F7FAFA;
+}
+
+.experience-content {
+    margin-bottom: 75px;
+}
+
+#experience span {
+    color: #8D8F8F;
+}
+
+.experience-img {
+
+    height: 400px;
+}
+
+#exp-img-01 {
+    background-image: url(./assets/img/telkom-01.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#exp-img-02 {
+    background-image: url(./assets/img/telkom-02.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#exp-img-03 {
+    background-image: url(./assets/img/citibank.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#expertise .card {
+    margin-top: 30px;
+}
+
+#cta h2 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+ul {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 987px) {
+    #expertise h2 {
+    margin-bottom: 50px;
+}
+}
